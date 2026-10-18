@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="resume.html" method="post">
+        <label for="name">Enter Your Name : :</label>
+        <input type="text" id="name" minlength="5" maxlength="15" required/>
+        <br><br>
+        <label for="email">Enter Your Email : :</label>
+        <input type="email" />
+        <br><br>
+        <label for="password">Enter Your Password : :</label>
+        <input type="password" />
+        <br><br>
+        <label for="age">Enter Your Age : :</label>
+        <input type="number" />
+        <br><br>
+        <label for="date">Enter Date : :</label>
+        <input type="date" />
+        <br><br>
+        <label for="color">Choose Your Favorite Color : :</label>
+        <input type="color" id="color" />
+        <br><br>
+        <label for="paymentoption">Choose Payment Option :</label>
+        <select id="paymentoption">
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit" />
+
+        <input type="reset" value="Reset" />
+    </form>
+</body>
+</html>
