@@ -1,0 +1,55 @@
+.container {
+    background-color: coral;
+    border: 3px solid black;
+    height: 100%;
+}
+
+.head {
+    color: darkblue;
+}
+
+#bglime {
+    background-color: lime;
+}
+
+h2#bglime {
+    color: red;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+}
+
+#para {
+    color: green;
+}
+
+p#para {
+    color: black;
+    font-size: 18px;
+}
+
+ul li a {
+    color: blue;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+li {
+    font-size: 10px;
+}
+
+ol li:nth-child(1),
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3),
+ol li:nth-child(4) {
+    color: red;
+}
+
+ol li:nth-child(5) {
+    color: black;
+}
